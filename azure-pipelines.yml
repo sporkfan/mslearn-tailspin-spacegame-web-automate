@@ -92,6 +92,7 @@ stages:
         terraform init -input=false -backend-config="backend.tfvars"
         # Apply the Terraform plan.
         terraform apply -input=false -auto-approve
+        #Changing a thing. 
 
         # Get the App Service name for the dev environment.
         WebAppNameDev=$(terraform output appservice_name_dev)
