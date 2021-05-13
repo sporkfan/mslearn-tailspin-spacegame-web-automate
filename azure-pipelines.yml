@@ -95,6 +95,7 @@ stages:
         #Changing a thing. 
         #And another. 
         #Even moar!
+        #The changes never stop. 
 
         # Get the App Service name for the dev environment.
         WebAppNameDev=$(terraform output appservice_name_dev)
