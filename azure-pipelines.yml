@@ -94,6 +94,7 @@ stages:
         terraform apply -input=false -auto-approve
         #Changing a thing. 
         #And another. 
+        #Even moar!
 
         # Get the App Service name for the dev environment.
         WebAppNameDev=$(terraform output appservice_name_dev)
